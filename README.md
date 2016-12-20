@@ -1,36 +1,7 @@
 # cli-test
 
-FIXME: description
+This is meant to show how tools.cli actually works
 
-## Installation
+run with `lein run -- -h`. This will print the map that is provided by the help flag.
 
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar cli-test-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+This shows that `parse-options` simply returns a map of gleened from parsing command line.
