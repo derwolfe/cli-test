@@ -17,4 +17,7 @@
    ["-h" "--help"]])
 
 (defn -main [& args]
-  (prn (parse-opts args cli-options)))
+  (let [parsed (parse-opts args cli-options)]
+    (prn parsed)
+    ;; return the parsed options map
+    parsed))
